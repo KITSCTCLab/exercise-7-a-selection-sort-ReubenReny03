@@ -1,7 +1,7 @@
 from typing import List
 
 def selectionSort(array, size) -> List[int]:
-  for select in range(array):
+  for select in range(size):
     check = select
     for sort in range(select,size):
       if(array[sort]<array[select]):
